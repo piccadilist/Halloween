@@ -1,0 +1,43 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    position: relative;
+    background-image: url(/picture.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+}
+    
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    position: absolute;
+}
+
+.description {
+    padding-left: 100px;
+    margin-top: 150px;
+    color: ivory;
+    font-size: 30px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+.text {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.btn {
+    text-decoration: none;
+    color: ivory;
+    font-size: 18px;
+    border: 1px solid #fff;
+    padding: 5px;
+
+}
+.btn:hover {
+    text-decoration: underline solid ivory;
+}
